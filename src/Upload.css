@@ -1,0 +1,109 @@
+.Upload-root {
+    min-width: 900px;
+    height: 40vh;
+    margin-bottom: 10vh;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.Upload-root .upload-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 185px 0 0 0;
+}
+
+.Upload-root .upload-button {
+}
+
+.Upload-root .progress-container:nth-child(even) {
+    background-color: rgb(0, 0, 0, .0275);
+}
+
+.Upload-root.dragover {
+    background-color: black;
+    color: white;
+}
+
+.Upload-root .MuiBox-root.progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 0 8px 20px;
+}
+
+.Upload-root .MuiBox-root.item-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 0 8px 20px;
+    border-radius: 4px 4px 0 0;
+    /*background-color: #1565c0;*/
+    background-color: #1976d2;
+    color: white;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+
+.Upload-root .MuiTypography-root.item-header {
+    padding-right: 20px;
+}
+
+.Upload-root .MuiTypography-root.item-header.label {
+    min-width: 120px;
+}
+
+.Upload-root .MuiTypography-root.item-header.bytes {
+    min-width: 150px;
+}
+
+.Upload-root .MuiTypography-root.item-header.mb {
+    min-width: 100px;
+}
+
+.Upload-root .MuiTypography-root.item-header.uploaded {
+    min-width: 140px;
+}
+
+.Upload-root .MuiTypography-root.header.actions {
+}
+
+.Upload-root .MuiTypography-root.upload-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0 0 15px;
+}
+
+.Upload-root .MuiTypography-root.progress-label {
+    min-width: 120px;
+    padding-right: 20px;
+}
+
+.Upload-root .MuiTypography-root.progress-bytes {
+    min-width: 150px;
+    padding-right: 20px;
+}
+
+.Upload-root .MuiTypography-root.progress-mb {
+    min-width: 100px;
+    padding-right: 20px;
+}
+
+.Upload-root .MuiBox-root.progress-percentage-container {
+    height: 40px;
+    width: 160px;
+}
+
+.Upload-root .delete-button {
+}
+
+.Upload-root .MuiTypography-root.progress-percentage {
+    font-weight: bold;
+    font-size: 11px;
+    padding-left: 20px;
+    transform: translate(-11px, -31px);
+}

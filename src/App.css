@@ -1,0 +1,10 @@
+.App-root {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.App-root .MuiPaper-root {
+    box-shadow: none !important;
+}
